@@ -2,6 +2,8 @@
 
 A working prototype for **sequential, persistent agent workflows on Pi Durable**.
 
+Start with [current status](STATUS.md), the [roadmap](ROADMAP.md) and the [continuation guide](docs/continuation.md). This repository is the working home for subsequent development. [Agent instructions](AGENTS.md) cover Pi and other coding agents.
+
 Describe a chain of registered agents in JSON, start it through the CLI, and inspect the run and saved results. Native Durable tasks and SQLite hold execution state. One foreground owner runs the workflow; separate CLI processes communicate with it through authenticated local IPC.
 
 **Prototype, not production-ready.** The reproducible example is an explicit **OFFLINE DEMO** using the official SDK Faux provider. It verifies execution, validation, persistence and guards. It does not call a real model, perform factual research or prove live-provider compatibility.

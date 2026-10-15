@@ -1,6 +1,7 @@
 node_modules/
 node_modules.verified-sdk
 .data/
+.local/
 .tmp/
 .env
 .env.*

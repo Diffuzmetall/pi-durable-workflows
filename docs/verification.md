@@ -21,7 +21,7 @@ The demo prints its unique retained directory. It contains `status.json`, `resul
 
 ## Historical controlled lifecycle checks
 
-The following scenarios passed on the same unchanged core with official SDK packages before extraction. They used dedicated real service/IPC workers to request an orderly stop at a committed boundary or hold a deterministic B response. These internal fixtures and their private databases/logs are not included in this repository, and the table is a recorded result rather than a new public test receipt.
+The following scenarios passed on the same unchanged core with official SDK packages before extraction. They used dedicated real service/IPC workers to request an orderly stop at a committed boundary or hold a deterministic B response. These internal fixtures and their private databases/logs are not tracked or published in this repository. A maintainer checkout may retain copies in an ignored local archive. The table is a recorded result rather than a new public test receipt.
 
 | Scenario | Recorded result |
 |---|---|
