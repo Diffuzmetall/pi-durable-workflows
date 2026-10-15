@@ -112,6 +112,16 @@ One participating process owns a canonical store path in one network namespace. 
 
 The OpenAI host configuration remains experimental. Live provider/model admission, real-model correctness, arbitrary crash recovery, a full adversarial filesystem audit and capture-failure quarantine have not been verified for this public prototype. No production, paid-provider or deployment claims are made.
 
+## Roadmap and plans
+
+The [roadmap](ROADMAP.md) separates the delivered sequential prototype from recommended next work and the wider deferred design. It includes dependencies and acceptance gates, not release dates or an automatically approved backlog.
+
+- [Sequential MVP plan](docs/plans/sequential-mvp.md): the approved first-delivery contract and its accepted OFFLINE DEMO boundary.
+- [Next iteration](docs/plans/next-iteration.md): publish portable controlled recovery/cancel/identity checks, then separately consider explicitly approved real-provider admission.
+- [Workflow expansion](docs/plans/workflow-expansion.md): saved scenarios, worker reuse, parallel/dynamic graphs, approvals/events, actionable status, pause/retry, reusable blocks and optional adapters.
+
+These are plans, not claims that the future features already exist. The original broader design remains deferred; the sequential core does not need rewriting to start the next slice.
+
 ## Development
 
 `npm test` runs 65 existing fast admission, CLI and ownership checks. `npm run demo` performs the native offline smoke and completed-reopen check. Both use the official packages, not SDK source hooks.
