@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "steps": [
+    { "id": "research", "agent": "researcher" },
+    { "id": "check", "agent": "checker" },
+    { "id": "final", "agent": "final" }
+  ]
+}

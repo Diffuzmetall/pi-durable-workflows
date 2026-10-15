@@ -1,0 +1,12 @@
+{
+  "provider": "offline-demo-faux",
+  "modelId": "faux-1",
+  "perRequestOutputTokens": 512,
+  "limits": {
+    "maxSteps": 3,
+    "maxInputBytes": 32768,
+    "maxRequests": 3,
+    "maxOutputTokens": 1536,
+    "timeoutMs": 120000
+  }
+}

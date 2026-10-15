@@ -1,0 +1,14 @@
+node_modules/
+node_modules.verified-sdk
+.data/
+.tmp/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite-*
+*.db
+*.db-*
+*.log
+coverage/
+.DS_Store

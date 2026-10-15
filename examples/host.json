@@ -1,0 +1,12 @@
+{
+  "provider": "openai",
+  "modelId": "gpt-4.1-mini",
+  "perRequestOutputTokens": 512,
+  "limits": {
+    "maxSteps": 3,
+    "maxInputBytes": 32768,
+    "maxRequests": 3,
+    "maxOutputTokens": 1536,
+    "timeoutMs": 120000
+  }
+}

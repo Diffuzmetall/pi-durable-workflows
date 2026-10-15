@@ -1,0 +1,24 @@
+{
+  "name": "pi-durable-workflows",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Prototype sequential agent workflows on Pi Durable, with a standalone CLI and explicit offline demo.",
+  "type": "module",
+  "license": "UNLICENSED",
+  "engines": { "node": ">=24.19.0" },
+  "repository": { "type": "git", "url": "https://github.com/Diffuzmetall/pi-durable-workflows.git" },
+  "bin": { "pi-durable-workflows": "bin/jobs.mjs", "pi-durable-workflows-owner": "bin/owner.mjs" },
+  "exports": { ".": "./src/jobs.ts", "./host": "./src/host.ts", "./cli": "./src/cli.ts", "./ipc": "./src/ipc.ts" },
+  "scripts": {
+    "demo": "node scripts/demo.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "dependencies": {
+    "@earendil-works/chord": "1.2.0",
+    "@earendil-works/pi-ai": "1.2.0",
+    "@earendil-works/pi-codemode": "1.2.0",
+    "@earendil-works/pi-durable": "1.2.0",
+    "@earendil-works/pi-telemetry": "1.2.0"
+  },
+  "devDependencies": { "@types/node": "22.19.19" }
+}
