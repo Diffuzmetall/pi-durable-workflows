@@ -124,6 +124,10 @@ The [roadmap](ROADMAP.md) separates the delivered sequential prototype from reco
 
 These are plans, not claims that the future features already exist. The original broader design remains deferred; the sequential core does not need rewriting to start the next slice.
 
+## Related workflow authoring reference: pi-workflows
+
+[osolmaz/pi-workflows](https://github.com/osolmaz/pi-workflows) (MIT) provides TypeScript workflow definitions, graph validation, routing and composition worth evaluating for this project's future graph support. The intended reuse is its workflow authoring logic **on native Pi Durable tasks**, not its separate server, runner, queue or SQLite state. This is a reference, not a dependency or an implemented integration; compatibility and recovery behavior still need verification.
+
 ## Development
 
 `npm test` runs 65 existing fast admission, CLI and ownership checks. `npm run demo` performs the native offline smoke and completed-reopen check. Both use the official packages, not SDK source hooks.
